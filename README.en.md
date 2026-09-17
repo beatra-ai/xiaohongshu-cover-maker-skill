@@ -14,9 +14,13 @@ Turn a photo or a topic idea into a vertical 3:4 Xiaohongshu cover with a clean 
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="Three vertical 3:4 Xiaohongshu note covers generated from topic briefs: a skincare flat-lay with an unbranded serum bottle headlined &quot;干皮秋冬护肤清单&quot;, a home breakfast of egg toast, avocado and tomatoes headlined &quot;15分钟快手早餐&quot;, and a commute outfit flat-lay with no model headlined &quot;通勤穿搭一周不重样&quot;. AI-generated with Beatra."></p>
+
+*Three vertical 3:4 Xiaohongshu note covers generated from topic briefs: a skincare flat-lay with an unbranded serum bottle headlined "干皮秋冬护肤清单", a home breakfast of egg toast, avocado and tomatoes headlined "15分钟快手早餐", and a commute outfit flat-lay with no model headlined "通勤穿搭一周不重样". AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.7 |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.8 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker). Report issues there.
 

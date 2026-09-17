@@ -14,9 +14,13 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="根据选题生成的三张竖版 3:4 小红书笔记封面：无品牌精华瓶护肤平铺图配标题「干皮秋冬护肤清单」、煎蛋吐司配牛油果和小番茄的家常早餐配标题「15分钟快手早餐」，以及无模特的通勤服装平铺图配标题「通勤穿搭一周不重样」。由 Beatra AI 生成。"></p>
+
+*根据选题生成的三张竖版 3:4 小红书笔记封面：无品牌精华瓶护肤平铺图配标题「干皮秋冬护肤清单」、煎蛋吐司配牛油果和小番茄的家常早餐配标题「15分钟快手早餐」，以及无模特的通勤服装平铺图配标题「通勤穿搭一周不重样」。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.7 |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.8 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker) 自动发布，问题请到那里反馈。
 
