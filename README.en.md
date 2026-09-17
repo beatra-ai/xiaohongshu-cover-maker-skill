@@ -1,0 +1,88 @@
+# 小红书封面制作 Skill
+
+[简体中文](./README.md) | English
+
+Turn a photo or a topic idea into a vertical 3:4 Xiaohongshu cover with a clean background, a bold focal point, and text-safe areas for beauty, food, fashion, and lifestyle notes, from inside Claude Code, Codex, or OpenClaw.
+
+> [!IMPORTANT]
+> Rendering needs a [Beatra](https://beatra.ai) account and uses credits. The skill itself is free to install.
+
+| Question | Answer |
+| --- | --- |
+| **What it does** | Turn a photo or a topic idea into a scroll-stopping vertical 3:4 Xiaohongshu cover with clean backgrounds, bold focal composition, and text-safe areas for beauty, food, fashion, and lifestyle notes. |
+| **Requirements** | Python 3.10+ and an agent that loads `SKILL.md` |
+| **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
+| **Works with** | Claude Code, Codex, OpenClaw |
+
+| Skill | Entry point | Version |
+| --- | --- | --- |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.7 |
+
+This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker). Report issues there.
+
+## Install
+
+With the [`skills`](https://skills.sh) CLI:
+
+```bash
+npx skills add beatra-ai/xiaohongshu-cover-maker-skill
+```
+
+With the GitHub CLI:
+
+```bash
+gh skill install beatra-ai/xiaohongshu-cover-maker-skill zhongcao-cover-maker
+```
+
+Or clone this repository and copy `skills/zhongcao-cover-maker` into `~/.claude/skills/` for Claude Code,
+`~/.agents/skills/` for Codex, or `~/.openclaw/skills/` for OpenClaw.
+
+Or paste this into your agent:
+
+```text
+Install the zhongcao-cover-maker skill from https://github.com/beatra-ai/xiaohongshu-cover-maker-skill (folder skills/zhongcao-cover-maker), then follow its SKILL.md to connect my Beatra account.
+```
+
+## What you get
+
+- **Built for the feed** — Vertical 3:4 covers occupy maximum feed space and drive the highest click-through in Xiaohongshu's dual-column waterfall layout.
+- **Text-safe composition** — Every cover reserves a clean zone for your headline overlay—top third, center, or bottom—so your bold title text lands without clashing.
+- **Category-aware styling** — Beauty gets bright and airy, food gets warm and appetizing, fashion gets editorial and minimal. The cover matches the visual language of your content category.
+
+## Use cases
+
+- **Beauty and skincare covers** — Bright, clean, soft-focus backgrounds with pastel tones and natural skin—perfect for product reviews, tutorials, and routine sharing.
+- **Food and cafe covers** — Warm, appetizing food photography with shallow depth of field, natural window light, and the dish as hero.
+- **Fashion and OOTD covers** — Editorial full-body or half-body composition with clean urban or studio backgrounds and strong color coordination.
+- **Knowledge and tips covers** — Clean flat layouts with high contrast and infographic-friendly composition, leaving room for bold headline text.
+
+## FAQ
+
+### Can I create a cover from my food photo?
+
+Yes. Upload your food photo and the tool transforms it into a warm, appetizing vertical cover with shallow depth of field, natural lighting, and the dish as the hero subject.
+
+### Can I generate a cover without a photo?
+
+Yes. Describe your note topic and style direction. The tool generates a cover concept from your description with a vertical 3:4 canvas and text-safe zone.
+
+### Will there be space for my headline text?
+
+Yes. Every cover reserves a clean text-safe zone—top third, center, or bottom—so you can add your bold headline overlay without clashing with the image.
+
+### Can I fix a specific area of an accepted cover?
+
+Yes. Upload the accepted cover, describe what to fix—a distracting object, color temperature, or blemish—and the edit targets only that area.
+
+## Updates
+
+Each installed skill checks for a new version at most once a day, verifies the
+official archive before replacing itself, and leaves your installation untouched
+if anything fails. Turn it off at any time — see
+`references/automatic-updates-and-safety.md` inside the skill.
+
+## License
+
+[MIT-0](LICENSE) — free to use, modify, and redistribute, including
+commercially. No attribution required. Same terms as these skills carry on
+ClawHub.

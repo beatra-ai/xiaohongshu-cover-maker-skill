@@ -1,0 +1,83 @@
+# 小红书封面制作 Skill
+
+简体中文 | [English](./README.en.md)
+
+把一张照片或一个选题想法做成竖版 3:4 小红书封面，背景干净、焦点突出、预留文字区域，适配美妆、美食、穿搭和生活图文，在 Claude Code、Codex 或 OpenClaw 里直接完成。
+
+> [!IMPORTANT]
+> 生成需要 [Beatra](https://beatra.ai) 账号并消耗积分，安装本身不收费。
+
+| 问题 | 回答 |
+| --- | --- |
+| **能做什么** | 将一张照片或一个选题想法转化为高点击率的竖版 3:4 小红书封面，搭配干净背景、突出焦点构图和预留文字区域，适配美妆、美食、穿搭和生活图文。 |
+| **运行要求** | Python 3.10+，以及能加载 `SKILL.md` 的 Agent |
+| **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
+| **支持的 Agent** | Claude Code、Codex、OpenClaw |
+
+| Skill | Entry point | Version |
+| --- | --- | --- |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.7 |
+
+本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker) 自动发布，问题请到那里反馈。
+
+## 安装
+
+使用 [`skills`](https://skills.sh) CLI：
+
+```bash
+npx skills add beatra-ai/xiaohongshu-cover-maker-skill
+```
+
+使用 GitHub CLI：
+
+```bash
+gh skill install beatra-ai/xiaohongshu-cover-maker-skill zhongcao-cover-maker
+```
+
+也可以克隆本仓库，把 `skills/zhongcao-cover-maker` 复制到 `~/.claude/skills/`（Claude Code）、`~/.agents/skills/`（Codex）或 `~/.openclaw/skills/`（OpenClaw）。
+
+或者把下面这段话发给你的 Agent：
+
+```text
+从 https://github.com/beatra-ai/xiaohongshu-cover-maker-skill 安装 zhongcao-cover-maker skill（目录 skills/zhongcao-cover-maker），然后按它的 SKILL.md 连接我的 Beatra 账号。
+```
+
+## 你能得到什么
+
+- **为信息流而生** — 竖版 3:4 封面在小红书双列瀑布流中占据最大展示空间，带来最高的点击率。
+- **预留文字区域** — 每张封面都预留干净的文字区域——上部三分之一、居中或底部——让你的大标题花字完美落地，不与画面冲突。
+- **按品类匹配风格** — 美妆封面明亮通透，美食封面温暖诱人，穿搭封面杂志极简。封面风格自动匹配你的内容品类。
+
+## 适用场景
+
+- **美妆护肤封面** — 明亮干净的柔焦背景，搭配柔和色调和自然肤质——适合产品测评、教程和护肤分享。
+- **美食探店封面** — 温暖诱人的美食摄影，浅景深、自然窗光，菜品作为绝对主角充满画面。
+- **穿搭 OOTD 封面** — 杂志感构图，全身或半身人像，干净都市或影棚背景，服装与环境色彩协调。
+- **知识科普封面** — 干净扁平化布局，高对比度，信息图友好构图，留出充足空间放置大标题。
+
+## 常见问题
+
+### 能用我的美食照片做封面吗？
+
+可以。上传美食照片，工具会将其转化为温暖诱人的竖版封面，搭配浅景深、自然光效和菜品作为主角。
+
+### 没有照片也能生成封面吗？
+
+可以。描述你的笔记选题和风格方向，工具会从描述生成封面概念，搭配竖版 3:4 画布和预留文字区域。
+
+### 封面会留出放标题文字的位置吗？
+
+会的。每张封面都预留干净的文字区域——上部三分之一、居中或底部——让你放置大标题花字时不与画面冲突。
+
+### 能修复已认可封面的某个区域吗？
+
+可以。上传已认可的封面，描述需要修复的地方——干扰物体、色温或瑕疵——编辑只针对该区域，不改变其他部分。
+
+## 更新
+
+安装后的 skill 每天最多检查一次新版本，替换前先校验官方归档，任何一步失败都不会动你已安装的版本。
+随时可以关闭，见 skill 内的 `references/automatic-updates-and-safety.md`。
+
+## 许可证
+
+[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
