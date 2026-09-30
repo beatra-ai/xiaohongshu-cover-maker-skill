@@ -20,7 +20,7 @@ Turn a photo or a topic idea into a vertical 3:4 Xiaohongshu cover with a clean 
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.8 |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.1 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker). Report issues there.
 
@@ -49,7 +49,7 @@ Install the zhongcao-cover-maker skill from https://github.com/beatra-ai/xiaohon
 
 ## What you get
 
-- **Built for the feed** — Vertical 3:4 covers occupy maximum feed space and drive the highest click-through in Xiaohongshu's dual-column waterfall layout.
+- **Built for the feed** — Vertical 3:4 covers take up more feed space in Xiaohongshu's dual-column waterfall layout, so they are easier to notice.
 - **Text-safe composition** — Every cover reserves a clean zone for your headline overlay—top third, center, or bottom—so your bold title text lands without clashing.
 - **Category-aware styling** — Beauty gets bright and airy, food gets warm and appetizing, fashion gets editorial and minimal. The cover matches the visual language of your content category.
 

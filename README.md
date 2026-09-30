@@ -20,7 +20,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.1.8 |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.1 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker) 自动发布，问题请到那里反馈。
 
@@ -48,7 +48,7 @@ gh skill install beatra-ai/xiaohongshu-cover-maker-skill zhongcao-cover-maker
 
 ## 你能得到什么
 
-- **为信息流而生** — 竖版 3:4 封面在小红书双列瀑布流中占据最大展示空间，带来最高的点击率。
+- **为信息流而生** — 竖版 3:4 封面在小红书双列瀑布流中占据更大的展示空间，更容易被看到。
 - **预留文字区域** — 每张封面都预留干净的文字区域——上部三分之一、居中或底部——让你的大标题花字完美落地，不与画面冲突。
 - **按品类匹配风格** — 美妆封面明亮通透，美食封面温暖诱人，穿搭封面杂志极简。封面风格自动匹配你的内容品类。
 
