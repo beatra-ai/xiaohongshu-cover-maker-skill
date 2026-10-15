@@ -20,7 +20,7 @@ Turn a photo or a topic idea into a vertical 3:4 Xiaohongshu cover with a clean 
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.1 |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.4 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker). Report issues there.
 
@@ -78,12 +78,12 @@ Yes. Every cover reserves a clean text-safe zone—top third, center, or bottom�
 
 Yes. Upload the accepted cover, describe what to fix—a distracting object, color temperature, or blemish—and the edit targets only that area.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update zhongcao-cover-maker` or `gh skill update zhongcao-cover-maker`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
