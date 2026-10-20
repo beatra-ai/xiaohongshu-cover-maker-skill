@@ -1,6 +1,8 @@
 # 小红书封面制作 Skill
 
-简体中文 | [English](./README.en.md)
+简体中文 | [English](./README.en.md) | [日本語](./README.ja.md)
+
+> 👉 也看看 [小红书文案 Skill](https://github.com/beatra-ai/xiaohongshu-copywriter-skill)
 
 把一张照片或一个选题想法做成竖版 3:4 小红书封面，背景干净、焦点突出、预留文字区域，适配美妆、美食、穿搭和生活图文，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 

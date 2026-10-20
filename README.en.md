@@ -1,6 +1,8 @@
 # 小红书封面制作 Skill
 
-[简体中文](./README.md) | English
+[简体中文](./README.md) | English | [日本語](./README.ja.md)
+
+> 👉 See also [小红书文案 Skill](https://github.com/beatra-ai/xiaohongshu-copywriter-skill)
 
 Turn a photo or a topic idea into a vertical 3:4 Xiaohongshu cover with a clean background, a bold focal point, and text-safe areas for beauty, food, fashion, and lifestyle notes, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
