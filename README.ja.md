@@ -7,7 +7,7 @@
 写真 1 枚やテーマから、クリーンな背景、はっきりした主役、文字を置ける余白を備えた縦型 3:4 の小紅書カバーを作成。美容、グルメ、ファッション、ライフスタイル投稿向け。Claude Code、Cursor、Codex、Windsurf、Cline、OpenClaw のどれからでもそのまま使えます。
 
 > [!IMPORTANT]
-> 生成には [Beatra](https://beatra.ai) アカウントが必要で、クレジットを消費します。スキル自体のインストールは無料です。
+> 生成には [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=xiaohongshu-cover-maker-skill) アカウントが必要で、クレジットを消費します。スキル自体のインストールは無料です。
 
 | 項目 | 内容 |
 | --- | --- |
@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.6 |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.7 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker) から自動的に公開されています。問題の報告はそちらへお願いします。
 
@@ -106,7 +106,7 @@ https://github.com/beatra-ai/xiaohongshu-cover-maker-skill から zhongcao-cover
 
 ## リンク
 
-- ウェブサイト — https://beatra.ai
-- ドキュメント — https://docs.beatra.ai
+- ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=xiaohongshu-cover-maker-skill
+- ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=xiaohongshu-cover-maker-skill
 - コンソール — https://console.beatra.ai
 - AI エージェント向け — https://beatra.ai/llms.txt（インデックス）· https://beatra.ai/llms-full.txt（全スキルを 1 ファイルに）
