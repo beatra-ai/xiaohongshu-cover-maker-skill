@@ -23,7 +23,7 @@ Turn a photo or a topic idea into a vertical 3:4 Xiaohongshu cover with a clean 
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.7 |
+| [`zhongcao-cover-maker`](skills/zhongcao-cover-maker) | [SKILL.md](skills/zhongcao-cover-maker/SKILL.md) | 0.2.9 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/zhongcao-cover-maker). Report issues there.
 
