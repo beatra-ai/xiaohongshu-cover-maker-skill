@@ -1,0 +1,20 @@
+{
+  "name": "xiaohongshu-cover-maker-skill",
+  "interface": {
+    "displayName": "小红书封面制作"
+  },
+  "plugins": [
+    {
+      "name": "zhongcao-cover-maker",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

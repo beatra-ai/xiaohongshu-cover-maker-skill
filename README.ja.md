@@ -35,6 +35,33 @@
 npx skills add beatra-ai/xiaohongshu-cover-maker-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/xiaohongshu-cover-maker-skill
+claude plugin install zhongcao-cover-maker@xiaohongshu-cover-maker-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/xiaohongshu-cover-maker-skill
+codex plugin add zhongcao-cover-maker@xiaohongshu-cover-maker-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/xiaohongshu-cover-maker-skill
+copilot plugin install zhongcao-cover-maker@xiaohongshu-cover-maker-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash

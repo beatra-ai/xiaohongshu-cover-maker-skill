@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "zhongcao-cover-maker",
+  "displayName": "小红书封面制作",
+  "version": "0.2.9",
+  "description": "Turn a photo or a topic idea into a scroll-stopping vertical 3:4 Xiaohongshu cover with clean backgrounds, bold focal composition, and text-safe areas for beauty, food, fashion, and lifestyle notes.",
+  "author": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "homepage": "https://beatra.ai/skills/zhongcao-cover-maker",
+  "repository": "https://github.com/beatra-ai/xiaohongshu-cover-maker-skill",
+  "license": "MIT-0",
+  "icon": "./assets/icon.png"
+}

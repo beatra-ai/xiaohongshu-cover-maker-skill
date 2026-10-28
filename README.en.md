@@ -35,6 +35,33 @@ With the [`skills`](https://skills.sh) CLI:
 npx skills add beatra-ai/xiaohongshu-cover-maker-skill
 ```
 
+As a Claude Code plugin:
+
+```bash
+claude plugin marketplace add beatra-ai/xiaohongshu-cover-maker-skill
+claude plugin install zhongcao-cover-maker@xiaohongshu-cover-maker-skill
+```
+
+As a Codex plugin:
+
+```bash
+codex plugin marketplace add beatra-ai/xiaohongshu-cover-maker-skill
+codex plugin add zhongcao-cover-maker@xiaohongshu-cover-maker-skill
+```
+
+As a GitHub Copilot CLI plugin:
+
+```bash
+copilot plugin marketplace add beatra-ai/xiaohongshu-cover-maker-skill
+copilot plugin install zhongcao-cover-maker@xiaohongshu-cover-maker-skill
+```
+
+As a Gemini CLI extension:
+
+```bash
+gemini extensions install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
+```
+
 With the GitHub CLI:
 
 ```bash
