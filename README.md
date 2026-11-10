@@ -62,6 +62,12 @@ copilot plugin install zhongcao-cover-maker@xiaohongshu-cover-maker-skill
 gemini extensions install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -75,6 +81,14 @@ gh skill install beatra-ai/xiaohongshu-cover-maker-skill zhongcao-cover-maker
 ```text
 从 https://github.com/beatra-ai/xiaohongshu-cover-maker-skill 安装 zhongcao-cover-maker skill（目录 skills/zhongcao-cover-maker），然后按它的 SKILL.md 连接我的 Beatra 账号。
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 图片：一张原图、风格参考或要再改的封面 | JPG、PNG | 单次最多 4 张 |
+| **输入** | 文本：笔记选题和风格方向 | — | — |
+| **输出** | 图片：背景干净、焦点突出、预留文字区的竖版小红书封面 | PNG、JPG、WEBP | 单次 1 张；2K；画幅 3:4 |
 
 ## 技术规格与输出限制
 
@@ -126,9 +140,9 @@ gh skill install beatra-ai/xiaohongshu-cover-maker-skill zhongcao-cover-maker
 
 会的。每张封面都预留干净的文字区域——上部三分之一、居中或底部——让你放置大标题花字时不与画面冲突。
 
-### 能修复已认可封面的某个区域吗？
+### 能修改已有封面的某个区域吗？
 
-可以。上传已认可的封面，描述需要修复的地方——干扰物体、色温或瑕疵——编辑只针对该区域，不改变其他部分。
+可以。上传这张封面，描述需要修改的地方，比如干扰物体、色温或瑕疵，编辑会针对这一处来做。
 
 ## 更新与安全
 
@@ -138,7 +152,9 @@ gh skill install beatra-ai/xiaohongshu-cover-maker-skill zhongcao-cover-maker
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=xiaohongshu-cover-maker-skill)。
 
 ## 相关链接
 

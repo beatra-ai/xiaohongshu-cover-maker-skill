@@ -10,6 +10,23 @@
   "homepage": "https://beatra.ai/skills/zhongcao-cover-maker",
   "repository": "https://github.com/beatra-ai/xiaohongshu-cover-maker-skill",
   "license": "MIT-0",
+  "keywords": [
+    "REDnote cover maker",
+    "Xiaohongshu cover",
+    "AI cover generator",
+    "Xiaohongshu note cover",
+    "REDnote post image",
+    "AI thumbnail maker",
+    "Xiaohongshu image design",
+    "social media cover generator",
+    "REDnote cover template",
+    "Xiaohongshu beauty cover",
+    "food photography cover",
+    "OOTD post image",
+    "competitor note analysis",
+    "comment analysis",
+    "Xiaohongshu research"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +36,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/zhongcao-cover-maker",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "用「小红薯·封面制作器」把我发给你的一张抹茶千层蛋糕照片做成3:4小红书封面，背景干净，留好标题位置。"
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

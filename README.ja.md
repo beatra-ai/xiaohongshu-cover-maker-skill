@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -75,6 +81,14 @@ gh skill install beatra-ai/xiaohongshu-cover-maker-skill zhongcao-cover-maker
 ```text
 https://github.com/beatra-ai/xiaohongshu-cover-maker-skill から zhongcao-cover-maker スキル（フォルダ skills/zhongcao-cover-maker）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
+
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | 画像：元の写真、スタイル参考、手直ししたいカバー | JPG、PNG | 1 リクエストあたり最大 4 枚 |
+| **入力** | テキスト：投稿のテーマとスタイルの方向 | — | — |
+| **出力** | 画像：背景がすっきりし、主役が際立ち、文字の余白を取った縦型の小紅書カバー | PNG、JPG、WEBP | 1 リクエストにつき 1 枚／2K／アスペクト比 3:4 |
 
 ## 技術仕様と出力上限
 
@@ -117,9 +131,9 @@ https://github.com/beatra-ai/xiaohongshu-cover-maker-skill から zhongcao-cover
 
 はい。すべてのカバーにクリーンなテキストスペース（上部3分の1、中央、下部）が確保されており、大胆な見出しオーバーレイを画像と干渉せずに追加できます。
 
-### 選んだカバーの特定のエリアを修正できますか？
+### 手元のカバーの一部だけを直せますか？
 
-はい。選んだカバーをアップロードし、修正したい箇所（邪魔なオブジェクト、色温度、傷）を指定すると、そのエリアだけが編集され、他の部分は変わりません。
+はい。そのカバーをアップロードし、直したい箇所（邪魔なもの、色温度、傷）を指定すると、その箇所を編集します。
 
 ## 更新とセキュリティ
 
@@ -129,7 +143,9 @@ https://github.com/beatra-ai/xiaohongshu-cover-maker-skill から zhongcao-cover
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=xiaohongshu-cover-maker-skill)が適用されます。
 
 ## リンク
 

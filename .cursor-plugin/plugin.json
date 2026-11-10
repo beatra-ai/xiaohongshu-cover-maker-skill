@@ -9,5 +9,22 @@
   "homepage": "https://beatra.ai/skills/zhongcao-cover-maker",
   "repository": "https://github.com/beatra-ai/xiaohongshu-cover-maker-skill",
   "license": "MIT-0",
+  "keywords": [
+    "REDnote cover maker",
+    "Xiaohongshu cover",
+    "AI cover generator",
+    "Xiaohongshu note cover",
+    "REDnote post image",
+    "AI thumbnail maker",
+    "Xiaohongshu image design",
+    "social media cover generator",
+    "REDnote cover template",
+    "Xiaohongshu beauty cover",
+    "food photography cover",
+    "OOTD post image",
+    "competitor note analysis",
+    "comment analysis",
+    "Xiaohongshu research"
+  ],
   "logo": "assets/icon.png"
 }

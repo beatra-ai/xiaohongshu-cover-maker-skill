@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/xiaohongshu-cover-maker-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -77,6 +83,14 @@ Or paste this into your agent:
 ```text
 Install the zhongcao-cover-maker skill from https://github.com/beatra-ai/xiaohongshu-cover-maker-skill (folder skills/zhongcao-cover-maker), then follow its SKILL.md to connect my Beatra account.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Image — A source photo, style references, or a cover to refine | JPG, PNG | up to 4 images per request |
+| **Input** | Text — The note topic and style direction | — | — |
+| **Output** | Image — Vertical Xiaohongshu cover with a clean background, bold focal subject, and text-safe zone | PNG, JPG, WEBP | 1 image per request; 2K; aspect ratios 3:4 |
 
 ## Technical Specifications & Output Limits
 
@@ -128,9 +142,9 @@ Yes. Describe your note topic and style direction. The tool generates a cover co
 
 Yes. Every cover reserves a clean text-safe zone—top third, center, or bottom—so you can add your bold headline overlay without clashing with the image.
 
-### Can I fix a specific area of an accepted cover?
+### Can I fix one area of a cover I already have?
 
-Yes. Upload the accepted cover, describe what to fix—a distracting object, color temperature, or blemish—and the edit targets only that area.
+Yes. Upload the cover and describe what to fix, such as a distracting object, color temperature, or a blemish, and the edit works on that area of your cover.
 
 ## Updates and security
 
@@ -141,9 +155,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=xiaohongshu-cover-maker-skill).
 
 ## Links
 
